@@ -1,6 +1,6 @@
-baseURL = "https://tactlabs.github.io/hugobase-new/"
+baseURL = "https://rajasgs.github.io/pynotess/"
 languageCode = "en-us"
-title = "TACT"
+title = "PyNotes CSP"
 theme = "hugo-theme-learn"
 publishDir="../docs"
 [outputs]
