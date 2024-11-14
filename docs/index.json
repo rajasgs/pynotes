@@ -1,69 +1,69 @@
 [
 {
-	"uri": "https://tactlabs.github.io/hugobase-new/",
+	"uri": "https://rajasgs.github.io/pynotes/",
 	"title": "",
 	"tags": [],
 	"description": "",
 	"content": "TACTLABS "
 },
 {
-	"uri": "https://tactlabs.github.io/hugobase-new/pandas-work-note/add-a-new-column/",
+	"uri": "https://rajasgs.github.io/pynotes/pandas-work-note/add-a-new-column/",
 	"title": "Pandas How to add column",
 	"tags": [],
 	"description": "In this section we can see how to add a column in a df",
 	"content": "import pandas as pd data = { \u0026#39;city\u0026#39; : [\u0026#39;Toronto\u0026#39;, \u0026#39;Montreal\u0026#39;, \u0026#39;Waterloo\u0026#39;], \u0026#39;points\u0026#39; : [80, 70, 90] } data {'city': ['Toronto', 'Montreal', 'Waterloo'], 'points': [80, 70, 90]}  type(data) dict  df = pd.DataFrame(data) df .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }  df = df.assign(code = [1, 2, 3]) df .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }  "
 },
 {
-	"uri": "https://tactlabs.github.io/hugobase-new/pandas-work-note/",
+	"uri": "https://rajasgs.github.io/pynotes/pandas-work-note/",
 	"title": "Pandas-work-notes",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://tactlabs.github.io/hugobase-new/python-note/python-addition/",
+	"uri": "https://rajasgs.github.io/pynotes/python-note/python-addition/",
 	"title": "Python Addition",
 	"tags": [],
 	"description": "-",
 	"content": "a = 5 b = 7 c = a + b print(c) 11  "
 },
 {
-	"uri": "https://tactlabs.github.io/hugobase-new/python-note/python-division/",
+	"uri": "https://rajasgs.github.io/pynotes/python-note/python-division/",
 	"title": "Python Division",
 	"tags": [],
 	"description": "-",
 	"content": "a = 30 b = 6 c = a / b print(c) 5.0  "
 },
 {
-	"uri": "https://tactlabs.github.io/hugobase-new/python-note/",
+	"uri": "https://rajasgs.github.io/pynotes/python-note/",
 	"title": "Python-notes",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://tactlabs.github.io/hugobase-new/python-note/simple-python/",
+	"uri": "https://rajasgs.github.io/pynotes/python-note/simple-python/",
 	"title": "Simple Python",
 	"tags": [],
 	"description": "-",
 	"content": "print(\u0026#39;Hello Toronto\u0026#39;) Hello Toronto  print(2) 2  "
 },
 {
-	"uri": "https://tactlabs.github.io/hugobase-new/python-note/template/",
+	"uri": "https://rajasgs.github.io/pynotes/python-note/template/",
 	"title": "Template",
 	"tags": [],
 	"description": "-",
 	"content": "print(\u0026#39;Hello Toronto\u0026#39;) Hello Toronto  print(2) 2  "
 },
 {
-	"uri": "https://tactlabs.github.io/hugobase-new/categories/",
+	"uri": "https://rajasgs.github.io/pynotes/categories/",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://tactlabs.github.io/hugobase-new/tags/",
+	"uri": "https://rajasgs.github.io/pynotes/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",

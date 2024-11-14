@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>TACT</title>
-    <link>https://tactlabs.github.io/hugobase-new/</link>
-    <description>Recent content on TACT</description>
+    <title>PyNotes CSP</title>
+    <link>https://rajasgs.github.io/pynotes/</link>
+    <description>Recent content on PyNotes CSP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 14 Nov 2024 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://tactlabs.github.io/hugobase-new/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rajasgs.github.io/pynotes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Pandas How to add column</title>
-      <link>https://tactlabs.github.io/hugobase-new/pandas-work-note/add-a-new-column/</link>
+      <link>https://rajasgs.github.io/pynotes/pandas-work-note/add-a-new-column/</link>
       <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://tactlabs.github.io/hugobase-new/pandas-work-note/add-a-new-column/</guid>
+      <guid>https://rajasgs.github.io/pynotes/pandas-work-note/add-a-new-column/</guid>
       <description>import pandas as pd data = { &amp;#39;city&amp;#39; : [&amp;#39;Toronto&amp;#39;, &amp;#39;Montreal&amp;#39;, &amp;#39;Waterloo&amp;#39;], &amp;#39;points&amp;#39; : [80, 70, 90] } data {&#39;city&#39;: [&#39;Toronto&#39;, &#39;Montreal&#39;, &#39;Waterloo&#39;], &#39;points&#39;: [80, 70, 90]}  type(data) dict  df = pd.DataFrame(data) df .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }  df = df.assign(code = [1, 2, 3]) df .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }  </description>
     </item>
     
     <item>
       <title>Python Addition</title>
-      <link>https://tactlabs.github.io/hugobase-new/python-note/python-addition/</link>
+      <link>https://rajasgs.github.io/pynotes/python-note/python-addition/</link>
       <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tactlabs.github.io/hugobase-new/python-note/python-addition/</guid>
+      <guid>https://rajasgs.github.io/pynotes/python-note/python-addition/</guid>
       <description>a = 5 b = 7 c = a + b print(c) 11  </description>
     </item>
     
     <item>
       <title>Python Division</title>
-      <link>https://tactlabs.github.io/hugobase-new/python-note/python-division/</link>
+      <link>https://rajasgs.github.io/pynotes/python-note/python-division/</link>
       <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tactlabs.github.io/hugobase-new/python-note/python-division/</guid>
+      <guid>https://rajasgs.github.io/pynotes/python-note/python-division/</guid>
       <description>a = 30 b = 6 c = a / b print(c) 5.0  </description>
     </item>
     
     <item>
       <title>Simple Python</title>
-      <link>https://tactlabs.github.io/hugobase-new/python-note/simple-python/</link>
+      <link>https://rajasgs.github.io/pynotes/python-note/simple-python/</link>
       <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tactlabs.github.io/hugobase-new/python-note/simple-python/</guid>
+      <guid>https://rajasgs.github.io/pynotes/python-note/simple-python/</guid>
       <description>print(&amp;#39;Hello Toronto&amp;#39;) Hello Toronto  print(2) 2  </description>
     </item>
     
     <item>
       <title>Template</title>
-      <link>https://tactlabs.github.io/hugobase-new/python-note/template/</link>
+      <link>https://rajasgs.github.io/pynotes/python-note/template/</link>
       <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tactlabs.github.io/hugobase-new/python-note/template/</guid>
+      <guid>https://rajasgs.github.io/pynotes/python-note/template/</guid>
       <description>print(&amp;#39;Hello Toronto&amp;#39;) Hello Toronto  print(2) 2  </description>
     </item>
     
