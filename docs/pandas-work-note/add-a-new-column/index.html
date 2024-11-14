@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.68.3" />
-    <meta name="description" content="-">
+    <meta name="description" content="In this section we can see how to add a column in a df">
 
 
     <link rel="icon" href="/hugobase-new/images/favicon.png" type="image/png">
 
-    <title>Simple Python :: TACT</title>
+    <title>Pandas How to add column :: TACT</title>
 
     
     <link href="/hugobase-new/css/nucleus.css?1731593730" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/hugobase-new/python-note/simple-python/">
+  <body class="" data-url="/hugobase-new/pandas-work-note/add-a-new-column/">
     <nav id="sidebar" class="">
 
 
@@ -86,7 +86,7 @@
   
     
     <li data-nav-id="/hugobase-new/pandas-work-note/" title="Pandas-work-notes" class="dd-item
-        
+        parent
         
         
         ">
@@ -112,7 +112,7 @@
  
   
     
-      <li data-nav-id="/hugobase-new/pandas-work-note/add-a-new-column/" title="Pandas How to add column" class="dd-item ">
+      <li data-nav-id="/hugobase-new/pandas-work-note/add-a-new-column/" title="Pandas How to add column" class="dd-item active">
         <a href="/hugobase-new/pandas-work-note/add-a-new-column/">
         Pandas How to add column
         
@@ -141,7 +141,7 @@
   
     
     <li data-nav-id="/hugobase-new/python-note/" title="Python-notes" class="dd-item
-        parent
+        
         
         
         ">
@@ -209,7 +209,7 @@
  
   
     
-      <li data-nav-id="/hugobase-new/python-note/simple-python/" title="Simple Python" class="dd-item active">
+      <li data-nav-id="/hugobase-new/python-note/simple-python/" title="Simple Python" class="dd-item ">
         <a href="/hugobase-new/python-note/simple-python/">
         Simple Python
         
@@ -298,7 +298,7 @@
             
           
           
-            <a href='/hugobase-new/'></a> > <a href='/hugobase-new/python-note/'>Python-notes</a> > Simple Python
+            <a href='/hugobase-new/'></a> > <a href='/hugobase-new/pandas-work-note/'>Pandas-work-notes</a> > Pandas How to add column
           
         
           
@@ -327,20 +327,52 @@
           
             <h1>
               
-              Simple Python
+              Pandas How to add column
             </h1>
           
 
         
 
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Hello Toronto&#39;</span>)
-</code></pre></div><pre><code>Hello Toronto
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> pandas <span style="color:#f92672">as</span> pd
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data <span style="color:#f92672">=</span> {
+    <span style="color:#e6db74">&#39;city&#39;</span> : [<span style="color:#e6db74">&#39;Toronto&#39;</span>, <span style="color:#e6db74">&#39;Montreal&#39;</span>, <span style="color:#e6db74">&#39;Waterloo&#39;</span>],
+    <span style="color:#e6db74">&#39;points&#39;</span> : [<span style="color:#ae81ff">80</span>, <span style="color:#ae81ff">70</span>, <span style="color:#ae81ff">90</span>]
+}
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data
+</code></pre></div><pre><code>{'city': ['Toronto', 'Montreal', 'Waterloo'], 'points': [80, 70, 90]}
 </code></pre>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">print</span>(<span style="color:#ae81ff">2</span>)
-</code></pre></div><pre><code>2
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">type(data)
+</code></pre></div><pre><code>dict
 </code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>DataFrame(data)
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df
+</code></pre></div><!-- raw HTML omitted -->
+<pre><code>.dataframe tbody tr th {
+    vertical-align: top;
+}
 
+.dataframe thead th {
+    text-align: right;
+}
+</code></pre>
+<p><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>assign(code <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>])
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df
+</code></pre></div><!-- raw HTML omitted -->
+<pre><code>.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}
+</code></pre>
+<p><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+</code></pre></div>
 
 <footer class="footline">
 	
@@ -377,6 +409,40 @@
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
                         
                         
                     
@@ -404,30 +470,10 @@
             
         
                     
-            
-        
-                    
                         
             
             
                 
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
                     
                 
                 
@@ -460,26 +506,6 @@
             
             
                 
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
                     
                 
                 
@@ -504,10 +530,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/hugobase-new/python-note/python-division/" title="Python Division"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/hugobase-new/pandas-work-note/" title="Pandas-work-notes"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/hugobase-new/python-note/template/" title="Template" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/hugobase-new/python-note/" title="Python-notes" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

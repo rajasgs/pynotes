@@ -7,6 +7,20 @@
 	"content": "TACTLABS "
 },
 {
+	"uri": "https://tactlabs.github.io/hugobase-new/pandas-work-note/add-a-new-column/",
+	"title": "Pandas How to add column",
+	"tags": [],
+	"description": "In this section we can see how to add a column in a df",
+	"content": "import pandas as pd data = { \u0026#39;city\u0026#39; : [\u0026#39;Toronto\u0026#39;, \u0026#39;Montreal\u0026#39;, \u0026#39;Waterloo\u0026#39;], \u0026#39;points\u0026#39; : [80, 70, 90] } data {'city': ['Toronto', 'Montreal', 'Waterloo'], 'points': [80, 70, 90]}  type(data) dict  df = pd.DataFrame(data) df .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }  df = df.assign(code = [1, 2, 3]) df .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }  "
+},
+{
+	"uri": "https://tactlabs.github.io/hugobase-new/pandas-work-note/",
+	"title": "Pandas-work-notes",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "https://tactlabs.github.io/hugobase-new/python-note/python-addition/",
 	"title": "Python Addition",
 	"tags": [],
