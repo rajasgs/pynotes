@@ -1,4 +1,4 @@
-baseURL = "https://rajasgs.github.io/pynotess/"
+baseURL = "https://rajasgs.github.io/pynotes/"
 languageCode = "en-us"
 title = "PyNotes CSP"
 theme = "hugo-theme-learn"
